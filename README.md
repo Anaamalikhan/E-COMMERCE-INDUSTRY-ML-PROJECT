@@ -1,4 +1,4 @@
-###🛒 E-COMMERCE-INDUSTRY-ML-PROJECT
+🛒 E-COMMERCE-INDUSTRY-ML-PROJECT
 📌 Project Overview
 
 This project focuses on applying Machine Learning techniques in the E-Commerce industry to analyze customer behavior, improve business decisions, and enhance user experience.
