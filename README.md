@@ -1,113 +1,102 @@
-🛒 E-COMMERCE-INDUSTRY-ML-PROJECT
-📌 Project Overview
+# E Commerce Delivery Time Prediction Using Machine Learning
 
-This project focuses on applying Machine Learning techniques in the E-Commerce industry to analyze customer behavior, improve business decisions, and enhance user experience.
-It demonstrates how data-driven models can help e-commerce platforms with prediction, classification, and recommendation tasks.
+This project is a simple machine learning application developed for the e commerce industry. It predicts the estimated delivery time of an order using Linear Regression based on distance and number of packages. The project is designed for learning purposes and demonstrates the complete machine learning workflow.
 
-🎯 Objectives
+---
 
-Analyze e-commerce data to extract meaningful insights
+## Project Description
 
-Build machine learning models to predict customer behavior
+The goal of this project is to estimate delivery time in hours for e commerce orders. The prediction is made using historical delivery data and a supervised learning algorithm called Linear Regression. The model learns the relationship between distance, number of packages, and delivery time.
 
-Improve decision-making using data-driven approaches
+---
 
-Understand real-world ML applications in the e-commerce domain
+## Topics Covered
 
-🧠 Machine Learning Concepts Used
+Machine Learning Introduction
+Supervised Learning
+Linear Regression
+Train Test Split
+Model Evaluation Metrics
+Mean Absolute Error
+Mean Squared Error
+Root Mean Squared Error
+R Square Score
 
-Data Preprocessing & Cleaning
+---
 
-Exploratory Data Analysis (EDA)
+## Dataset Information
 
-Feature Engineering
+The dataset is created manually within the code for demonstration purposes. It contains the following columns.
 
-Model Training & Evaluation
+Distance_km represents the distance of delivery in kilometers
+Packages represents the number of packages in the order
+DeliveryTime_hr represents the delivery time in hours
 
-Prediction & Performance Metrics
+---
 
-🛠️ Technologies & Tools
+## Technologies Used
 
-Programming Language: Python
-
-Libraries:
-
-NumPy
-
+Python 3
 Pandas
+NumPy
+Scikit Learn
 
-Matplotlib / Seaborn
+---
 
-Scikit-learn
+## Machine Learning Workflow
 
-Environment: Jupyter Notebook / Google Colab
+Collect historical delivery data
+Convert the data into a DataFrame
+Select input features which are distance and packages
+Select the target variable which is delivery time
+Split the data into training and testing sets
+Train the Linear Regression model using training data
+Test the model using unseen test data
+Evaluate the model using performance metrics
+Predict delivery time for a new order
 
-📊 Dataset
+---
 
-The dataset contains e-commerce-related information such as:
+## Evaluation Metrics
 
-Distance_km
+Mean Absolute Error is used to measure average absolute difference between actual and predicted values
+Mean Squared Error calculates the average squared difference between actual and predicted values
+Root Mean Squared Error is the square root of Mean Squared Error
+R Square Score measures how well the model explains the variance in the data
 
-Pakages
+---
 
-Delivery.Time_hr
+## Real Time Prediction
 
-(Dataset is used only for educational and learning purposes.)
+The model also supports real time prediction. A new order with distance and package count is provided as input and the trained model predicts the estimated delivery time in hours.
 
-🚀 Project Workflow
+---
 
-Data Collection
+## How to Run the Project
 
-Data Cleaning & Preprocessing
+Ensure Python 3 is installed on your system
+Install required libraries using pip
+Save the code file as delivery_time_prediction.py
+Run the file using the Python command in terminal or command prompt
 
-Exploratory Data Analysis (EDA)
+---
 
-Model Selection & Training
+## Project Structure
 
-Model Evaluation
+delivery_time_prediction.py
+README.md
 
-Result Interpretation
+---
 
-✅ Results
+## Future Enhancements
 
-Successfully trained machine learning models
+Use a larger real world dataset
+Add more input features such as traffic and weather
+Implement advanced regression algorithms
+Deploy the model as a web application
 
-Achieved meaningful predictions and insights
+---
 
-Demonstrated the impact of ML in the e-commerce industry
+## License
 
-📌 Use Cases
-
-Customer purchase prediction
-
-Recommendation systems
-
-Sales forecasting
-
-Customer segmentation
-
-👨‍💻 Author
-
-Mohammed Anam Ullah
-
-AIML Student
-
-Jawaharlal Nehru Technological University Hyderabad
-
-📎 Future Enhancements
-
-Deploy the model using Streamlit or Flask
-
-Use deep learning for better accuracy
-
-Integrate real-time data
-
-Improve recommendation logic
-
-⭐ Acknowledgements
-
-Scikit-learn Documentation
-
-Kaggle Datasets
-
-Open-source ML community
+This project is intended for educational and learning purposes and is free to use.
